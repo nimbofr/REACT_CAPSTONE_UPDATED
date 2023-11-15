@@ -1,0 +1,29 @@
+{
+  "decks": [
+    {
+      "name": "The first deck ",
+      "description": "This is the first deck",
+      "id": 1
+    }
+  ],
+  "cards": [
+    {
+      "front": "yep",
+      "back": "nope",
+      "deckId": 1,
+      "id": 1
+    },
+    {
+      "front": "yep nope",
+      "back": "yeop ",
+      "deckId": 1,
+      "id": 2
+    },
+    {
+      "front": "vrtv",
+      "back": "vrbewss",
+      "deckId": 1,
+      "id": 3
+    }
+  ]
+}

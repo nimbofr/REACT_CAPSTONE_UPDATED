@@ -1,0 +1,161 @@
+
+
+  
+  body {
+    background-color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  .line1 {
+    color: black;
+    padding-bottom: .5em;
+  }
+  
+  .line2 {
+    color: blueviolet;
+    padding-bottom: .3em;
+  }
+  
+  .not-enough-card {
+    color: red;
+    font-size: 1.5em;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px;
+  }
+
+  
+  .createdeck-list {
+    padding-right: .75rem;
+  }
+  
+  .main-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .deck-container {
+    border: solid black 2px;
+    /* display: flex; */
+    color: black;
+    border: solid 2px darkgreen;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: .5em;
+  }
+  
+  .cards-container {
+    /* display: flex; */
+    color: black;
+    border: solid 2px white;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: .5em;
+  }
+  
+  .create-deck {
+    padding-bottom: .2em;
+  }
+  
+  .card-name-number {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .deck-buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .deck-buttons-container button {
+    margin-right: .5em;
+  }
+  
+  .card-name-number, .deck-buttons-container, .card-question {
+    padding: .2em;
+  }
+  
+  h2 {
+    font-size: var(--fs-1p5);
+    font-weight: var(--fw-m);
+    /* margin: 0 0 .5em; */
+  }
+  
+  p {
+    margin: 0 0 var(--spacer);
+  }
+  
+  .button-org {
+    display: inline-block;
+    background: var(--primary-clr);
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    border-radius: var(--br);
+    font-weight: var(--fw-b);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+  }
+  
+  .button-sm {
+    display: inline-block;
+    background: var(--primary-clr);
+    color: white;
+    text-decoration: none;
+    padding: .5em .75em;
+    border-radius: var(--br);
+    font-weight: var(--fw-n);
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    font-size: .8rem;
+  }
+  
+  .btn-done, .btn-cancel, .btn-flip, .btn-edit, .btn-create, .btn-view {
+    background-color: grey;
+    margin-right: .3rem;
+  }
+  
+  .btn-done:hover, .btn-cancel:hover, .btn-flip:hover, .btn-edit:hover, .btn-create:hover, .btn-view:hover {
+    background-color: rgb(65, 65, 65);
+  }
+  
+  .btn-group-right {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .btn-save, .btn-submit, .btn-study, .btn-add {
+    background-color: blue;
+  }
+  
+  .btn-save:hover, .btn-submit:hover, .btn-study:hover, .btn-add:hover {
+    background-color: rgb(3, 3, 139);
+  }
+  
+  .btn-delete {
+    background-color: red;
+  }
+  
+  .btn-delete:hover {
+    background-color: rgb(153, 1, 1);
+  }
+  
+  /* h2 {
+    color: black;
+  } */
